@@ -14,3 +14,24 @@ Interactive UI: Built with Streamlit, offering a seamless and intuitive user exp
 Customization Options: Users can fine-tune the AI to suit the specific style and tone of their blog.
 
 LangChain for Prompt Template
+
+
+Installation----
+To get started with the Blog Generation App, follow these steps:
+
+# Clone the repository
+git clone <repository-url>
+cd <repository-name>
+
+# Install the required Python packages
+pip install -r requirements.txt
+
+# Download the Llama 2 model from Hugging Face
+# Place the model in the 'models' directory of your project
+
+
+# Usage
+Once you have installed the dependencies and set up the local model, you can run the app with the following command:
+
+
+streamlit run app.py
