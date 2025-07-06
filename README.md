@@ -23,38 +23,29 @@ This project is an AI-powered blog generator built using **Llama 2**. It takes y
 
 ---
 
-## ⚙️ Installation
 
-1️⃣ **Clone the repo**
+## ⚙️ Installation & Usage
 
 ```bash
+# 1️⃣ Clone the repo
 git clone https://github.com/krgau020/Blog-generator-using-llama2.git
 cd Blog-generator-using-llama2
 
----
-
-2️⃣ **Create a virtual environment (optional but recommended)**
-
+# 2️⃣ Create a virtual environment (optional but recommended)
 python -m venv venv
 
 # Activate it:
-source venv/bin/activate  # For Linux/Mac
+# For Linux/Mac
+source venv/bin/activate
 
-# OR
-venv\Scripts\activate     # For Windows
+# OR For Windows
+venv\Scripts\activate
 
-
-3️⃣ Install dependencies
-
+# 3️⃣ Install dependencies
 pip install -r requirements.txt
 
-
-**🚀 Usage**
-Run the main script:
-
+# 🚀 Run the app
 python app.py
-Follow the prompts to enter your blog topic or idea.
 
-The script will generate and print the blog content using Llama 2.
-
-
+# Follow the prompts to enter your blog topic or idea.
+# The script will generate and print the blog content using Llama 2.
