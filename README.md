@@ -1,34 +1,60 @@
-## Blog Generation App
+# Llama2 Blog Generator 🦙✍️
+
+This project is an AI-powered blog generator built using **Llama 2**. It takes your input prompt or topic idea and automatically generates well-structured blog content for you.
+
+---
+
+## 📌 Features
+
+- Uses the **Llama 2** language model for high-quality text generation.
+- Simple CLI or script-based usage.
+- Generate blog posts in seconds with minimal input.
+- Easily extendable for SEO, formatting, or CMS integration.
+
+---
+
+## 📂 Project Structure
+
+├── app.py # Main script to run the blog generator
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
 
 
-## Introduction
 
-This Blog Generation App is an innovative tool for bloggers and content creators, leveraging the power of AI to generate engaging blog posts. Built with Python, LangChain, and Streamlit, this app provides an interactive and user-friendly interface. It incorporates the Llama 2 language model, locally hosted, to ensure high-quality text generation.
+---
+
+## ⚙️ Installation
+
+1️⃣ **Clone the repo**
+
+```bash
+git clone https://github.com/krgau020/Blog-generator-using-llama2.git
+cd Blog-generator-using-llama2
+
+---
+
+2️⃣ **Create a virtual environment (optional but recommended)**
+
+python -m venv venv
+
+# Activate it:
+source venv/bin/activate  # For Linux/Mac
+
+# OR
+venv\Scripts\activate     # For Windows
 
 
+3️⃣ Install dependencies
 
-## Features
-
-AI-Powered Text Generation: Utilizes the Llama 2 model for advanced natural language processing.
-Interactive UI: Built with Streamlit, offering a seamless and intuitive user experience.
-Customization Options: Users can fine-tune the AI to suit the specific style and tone of their blog.
-
-LangChain for Prompt Template
-
-
-## Installation----
-To get started with the Blog Generation App, follow these steps:
-
-Clone the repository
-
-Install the required Python packages
 pip install -r requirements.txt
 
-Download the Llama 2 model from Hugging Face
-Place the model in directory of  project
+
+**🚀 Usage**
+Run the main script:
+
+python app.py
+Follow the prompts to enter your blog topic or idea.
+
+The script will generate and print the blog content using Llama 2.
 
 
-
-
-run the app with the following command:
-streamlit run app.py
