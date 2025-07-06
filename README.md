@@ -13,13 +13,14 @@ This project is an AI-powered blog generator built using **Llama 2**. It takes y
 
 ---
 
+
 ## 📂 Project Structure
 
-├── app.py # Main script to run the blog generator
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-
-
+```plaintext
+📂 Blog-generator-using-llama2
+├── app.py               # Main script to run the blog generator
+├── requirements.txt     # Python dependencies
+├── README.md            # Project documentation
 
 ---
 
