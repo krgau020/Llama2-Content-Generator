@@ -3,7 +3,7 @@
 This project is an AI-powered blog generator built using **Llama 2**. It takes your input prompt or topic idea and automatically generates well-structured blog content for you.
 
 ---
-
+ 
 ## 📌 Features
 
 - Uses the **Llama 2** language model for high-quality text generation.
